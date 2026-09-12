@@ -1,5 +1,10 @@
 import streamlit as st
 
+from utils.theme import apply_theme
+
+apply_theme()
+
+# your existing code continues here...
 from utils.predictor import predict_url
 from utils.database import save_detection
 

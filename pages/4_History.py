@@ -1,4 +1,10 @@
 import streamlit as st
+
+from utils.theme import apply_theme
+
+apply_theme()
+
+# your existing code continues here...
 from utils.database import get_history, clear_history
 
 st.set_page_config(

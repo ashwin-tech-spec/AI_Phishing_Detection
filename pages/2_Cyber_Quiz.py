@@ -1,5 +1,11 @@
 import streamlit as st
 
+from utils.theme import apply_theme
+
+apply_theme()
+
+# your existing code continues here...
+
 st.set_page_config(
     page_title="Cyber Safety Quiz",
     page_icon="🧠",
